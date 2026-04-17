@@ -1,0 +1,88 @@
+# 🤖 PREMIUM MMS BOT - COMPLETE SETUP GUIDE
+
+## ✅ FILES IN THIS ZIP:
+- bot.py (main bot)
+- database.py (data storage)
+- requirements.txt (dependencies)
+- Procfile (Railway config)
+- .env (your credentials)
+
+---
+
+## 🚀 DEPLOY ON RAILWAY.APP (FREE - 24/7)
+
+### STEP 1 - Create GitHub Account
+1. Go to https://github.com
+2. Sign up for free account
+
+### STEP 2 - Upload Bot Files
+1. Go to https://github.com/new
+2. Create repo name: "premium-mms-bot"
+3. Click "uploading an existing file"
+4. Upload ALL files from this zip
+5. Click "Commit changes"
+
+### STEP 3 - Deploy on Railway
+1. Go to https://railway.app
+2. Sign up with your GitHub account
+3. Click "New Project"
+4. Click "Deploy from GitHub repo"
+5. Select "premium-mms-bot"
+6. Click "Deploy Now"
+
+### STEP 4 - Add Environment Variables
+In Railway dashboard:
+1. Click your project
+2. Click "Variables" tab
+3. Add:
+   - BOT_TOKEN = 8694328725:AAHLoHqcmnzzAVhuMlrY_vTUnFZcv6QJX9g
+   - ADMIN_ID = 6198353113
+
+### STEP 5 - Done! Bot is LIVE 24/7 🎉
+
+---
+
+## 📱 HOW TO USE ADMIN PANEL
+
+Send /admin to your bot on Telegram.
+
+### Admin Panel Features:
+| Button | What it does |
+|--------|-------------|
+| 🖼 Set Start Image | Change welcome image |
+| 📝 Set Start Text | Change welcome message |
+| 💎 Set Premium Photo | Change plans image |
+| 🎬 Add Demo Video | Upload demo videos |
+| 💳 Set UPI ID | Change your UPI for payments |
+| 🔗 Set Private Link | Set channel link sent after approval |
+| 💰 Manage Plans | Change plan names & prices |
+| 📢 Broadcast | Send message to ALL users |
+| 👥 Total Users | See user count |
+
+---
+
+## 💰 PAYMENT FLOW:
+1. User clicks "Unlock Premium"
+2. Sees your plans (₹59/₹99/₹149/₹199)
+3. Clicks a plan → QR code auto-generated from your UPI
+4. User pays & clicks "PAYMENT DONE"
+5. User sends screenshot
+6. YOU get screenshot in Telegram with 3 buttons:
+   ✅ APPROVE → sends private link to user
+   ❌ REJECT → tells user payment rejected
+   ⚠️ FAKE → warns user about fake payment
+
+---
+
+## ⚠️ IMPORTANT NOTES:
+- First set your UPI ID from admin panel!
+- First set your private channel link from admin panel!
+- Add demo videos from admin panel before users click demo!
+- Bot runs 24/7 on Railway FREE plan
+
+---
+
+## 🆘 IF BOT STOPS:
+- Go to Railway dashboard
+- Click your project
+- Click "Restart"
